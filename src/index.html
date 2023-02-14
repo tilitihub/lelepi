@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lelepi (V=a*b*c)</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center bg-success p-5 
+    mt-5 rounded-5 border border-5">
+        <h1>Feladat 0358</h1>
+        <p>
+            Egy paralelepipedon test térfogatának számítása a három élének hossza megadásával. <br>
+            Térfogat képlet: V = a * b * c
+        </p>
+        <div class="pipeForm">
+            <div class="mt-5">
+                <input type="text"
+                placeholder="az a élének hossza "
+                class="form-control"
+                id="a">
+            </div>
+            <div class="mt-3">
+                <input type="text"
+                placeholder="a b élének hossza "
+                class="form-control"
+                id="b">
+            </div>
+            <div class="mt-3">
+                <input type="text"
+                placeholder="a c élének hossza "
+                class="form-control"
+                id="c">
+            </div>
+            
+            <button class="btn btn-dark mt-3"
+            id="calcButton">
+                Kiszámít
+            </button>
+
+            <div class="mt-5">
+                <label for="area" class="form-label">
+                    A paralelepipedon test térfogata: </label>
+                <input type="text"
+                readonly
+                class="form-control"
+                id="area">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about" class="mt-3 text-center ab">
+        Tiliczki Tibor, 2023.02.14. @kopirájtkriptobájt
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
