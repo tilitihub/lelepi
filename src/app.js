@@ -1,3 +1,12 @@
+/*
+* File: app.js
+* Author: Tiliczki Tibor
+* Copyright: kopirájtkriptobájt
+* Group: Szoft_I/1/E
+* Date: 2023.02.14.
+* Github: https://github.com/tilitihub/lelepi
+* Licenc: GNU GPL
+*/
 const aElem = document.querySelector('#a');
 const bElem = document.querySelector('#b');
 const cElem = document.querySelector('#c');
